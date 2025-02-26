@@ -1,0 +1,14 @@
+import math
+
+WIDTH, HEIGHT = 600, 600
+GRID_SIZE = 6
+TILE_SIZE = WIDTH // GRID_SIZE
+FOV = math.radians(70)
+NUM_RAYS = 85
+MAX_DEPTH = 10
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GRAY = (150, 150, 150)
+DARK_GRAY = (50, 50, 50)
+RED = (200, 0, 0)
