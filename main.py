@@ -25,6 +25,7 @@ def draw_grid(grid):
             pygame.draw.rect(screen, BLACK, (x * TILE_SIZE, y * TILE_SIZE, TILE_SIZE, TILE_SIZE), 1)
 
 
+
 def toggle_tile(grid, x, y):
     grid[y][x] = "X" if grid[y][x] == "O" else "O"
 
